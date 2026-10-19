@@ -1,10 +1,10 @@
 # DSH Plugins
 
-A curated collection of plugins for **DSH (DeepSeek Harness)** — academic search, paper and courseware reading, session workflows, notifications, and math rendering.
+A curated collection of plugins for **DSH (DeepSeek Harness)** — academic search, paper reading, session workflows, notifications, and math rendering.
 
 DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：每个插件保留自己的仓库、版本节奏和许可证，这里维护合集层面的分类、说明与可用状态。
 
-> **Status / 状态**：4 个插件已公开，3 个仍在本地迭代。未公开的插件只在这里列出，不包含源码。
+> **Status / 状态**：6 个插件均已公开，并链接到各自的仓库。
 
 ## 插件列表
 
@@ -12,9 +12,8 @@ DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：�
 
 | 插件 | 说明 | 状态 |
 | --- | --- | --- |
-| `dsh-academic-search` | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 | 本地迭代中 |
-| `dsh-paper-reader` | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。 | 本地迭代中 |
-| `dsh-courseware-reader` | 课件解析与考前复习：梳理知识点，生成带出处的复习报告与考点速查表。 | 本地迭代中 |
+| [`dsh-academic-search`](https://github.com/s11phere/dsh-academic-search) | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 | 公开 |
+| [`dsh-paper-reader`](https://github.com/s11phere/dsh-paper-reader) | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。速览 / 解读 / 深读三档可选。 | 公开 |
 
 ### 会话与工作流 / Session & workflow
 
@@ -32,7 +31,7 @@ DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：�
 
 ## 安装
 
-已公开的插件可以直接从 GitHub 安装。以侧栏会话为例：
+插件可以直接从 GitHub 安装。以侧栏会话为例：
 
 ```bash
 dsh plugin --profile web add github:s11phere/dsh-btw-sidebar
@@ -54,7 +53,7 @@ dsh plugin --profile web add github:s11phere/dsh-btw-sidebar
 - `README.md`：分类、说明与安装入口。
 - `plugins.json`：机器可读的插件清单，方便之后生成页面或检查状态。
 
-每个插件的源码、构建产物和许可证保留在各自仓库中。未公开的插件不在此仓库分发。
+每个插件的源码、构建产物和许可证保留在各自仓库中。
 
 ## 许可证
 
@@ -62,4 +61,4 @@ dsh plugin --profile web add github:s11phere/dsh-btw-sidebar
 
 ---
 
-**English summary**: A curated index of DSH plugins for academic search, paper and courseware reading, session workflows, notifications, and math rendering. Public plugins link to their own repositories; plugins still in local development are listed without source code.
+**English summary**: A curated index of DSH plugins for academic search, paper reading, session workflows, notifications, and math rendering. Every plugin links to its own public repository.

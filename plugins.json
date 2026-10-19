@@ -4,23 +4,16 @@
     {
       "id": "dsh-academic-search",
       "category": "research",
-      "status": "local",
-      "repo": null,
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-academic-search",
       "description": "CS/AI academic search across arXiv, OpenAlex, Semantic Scholar and Crossref, with paper identity merging, bounded citation chains, and arXiv handoff."
     },
     {
       "id": "dsh-paper-reader",
       "category": "research",
-      "status": "local",
-      "repo": null,
-      "description": "Paper-reading mode with page and section anchors, structured reports, and follow-up Q&A over the same parsed source."
-    },
-    {
-      "id": "dsh-courseware-reader",
-      "category": "research",
-      "status": "local",
-      "repo": null,
-      "description": "Courseware parsing and exam review with source-anchored review reports and quick-reference sheets."
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-paper-reader",
+      "description": "Paper-reading mode with page and section anchors, structured reports, depth levels, and follow-up Q&A over the same parsed source."
     },
     {
       "id": "dsh-btw-sidebar",
