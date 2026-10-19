@@ -1,0 +1,96 @@
+{
+  "updated": "2026-10-19",
+  "plugins": [
+    {
+      "id": "dsh-academic-search",
+      "category": "research",
+      "status": "local",
+      "repo": null,
+      "description": "CS/AI academic search across arXiv, OpenAlex, Semantic Scholar and Crossref, with paper identity merging, bounded citation chains, and arXiv handoff."
+    },
+    {
+      "id": "dsh-paper-reader",
+      "category": "research",
+      "status": "local",
+      "repo": null,
+      "description": "Paper-reading mode with page and section anchors, structured reports, and follow-up Q&A over the same parsed source."
+    },
+    {
+      "id": "dsh-courseware-reader",
+      "category": "research",
+      "status": "local",
+      "repo": null,
+      "description": "Courseware parsing and exam review with source-anchored review reports and quick-reference sheets."
+    },
+    {
+      "id": "dsh-autoresearch",
+      "category": "research",
+      "status": "local",
+      "repo": null,
+      "description": "Research workflow skill for finding questions in existing evidence, synthesizing papers, designing bounded experiments, and writing traceable drafts."
+    },
+    {
+      "id": "dsh-web-search-keyless",
+      "category": "web",
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-web-search-keyless",
+      "description": "Keyless web-search provider using Bing RSS with a DuckDuckGo Lite fallback; no API key and no model turn."
+    },
+    {
+      "id": "dsh-web-fetch-tun",
+      "category": "web",
+      "status": "local",
+      "repo": null,
+      "description": "ctx.web fetch provider for fake-IP and TUN environments that keeps the SSRF guard in place."
+    },
+    {
+      "id": "dsh-web-fetch-deepseek",
+      "category": "web",
+      "status": "local",
+      "repo": null,
+      "description": "ctx.web fetch provider backed by the official DeepSeek Fetch API."
+    },
+    {
+      "id": "dsh-btw-sidebar",
+      "category": "workflow",
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-btw-sidebar",
+      "description": "Codex-style /btw that forks the current conversation into the native right sidebar."
+    },
+    {
+      "id": "dsh-session-drag-reference",
+      "category": "workflow",
+      "status": "local",
+      "repo": null,
+      "description": "Drag a session from the sidebar into the input to insert an official session reference."
+    },
+    {
+      "id": "dsh-away-notify",
+      "category": "workflow",
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-away-notify",
+      "description": "Desktop notifications for completion, errors, and approval waits, fired only when you are away from the page."
+    },
+    {
+      "id": "dsh-commandcode-quota",
+      "category": "workflow",
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-commandcode-quota",
+      "description": "Command Code plan quota card with 5-hour, weekly, and monthly windows, reset countdowns, and billing-period usage."
+    },
+    {
+      "id": "dsh-plugin-sync",
+      "category": "workflow",
+      "status": "local",
+      "repo": null,
+      "description": "Sync plugin sources, enablement, and configuration between two machines through an SSH-accessible hub."
+    },
+    {
+      "id": "dsh-tex-block-normalizer",
+      "category": "rendering",
+      "status": "public",
+      "repo": "https://github.com/s11phere/dsh-tex-block-normalizer",
+      "description": "Normalizes Pandoc-style $$ display-math blocks before Markdown parsing to prevent lost first lines and KaTeX errors."
+    }
+  ]
+}
