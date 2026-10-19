@@ -2,32 +2,30 @@
 
 A curated collection of plugins for **DSH (DeepSeek Harness)** — academic search, paper reading, session workflows, notifications, and math rendering.
 
-DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：每个插件保留自己的仓库、版本节奏和许可证，这里维护合集层面的分类、说明与可用状态。
-
-> **Status / 状态**：6 个插件均已公开，并链接到各自的仓库。
+DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：每个插件保留自己的仓库、版本节奏和许可证，这里维护合集层面的分类与说明。
 
 ## 插件列表
 
 ### 研究与阅读 / Research & reading
 
-| 插件 | 说明 | 状态 |
-| --- | --- | --- |
-| [`dsh-academic-search`](https://github.com/s11phere/dsh-academic-search) | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 | 公开 |
-| [`dsh-paper-reader`](https://github.com/s11phere/dsh-paper-reader) | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。速览 / 解读 / 深读三档可选。 | 公开 |
+| 插件 | 说明 |
+| --- | --- |
+| [`dsh-academic-search`](https://github.com/s11phere/dsh-academic-search) | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 |
+| [`dsh-paper-reader`](https://github.com/s11phere/dsh-paper-reader) | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。速览 / 解读 / 深读三档可选。 |
 
 ### 会话与工作流 / Session & workflow
 
-| 插件 | 说明 | 状态 |
-| --- | --- | --- |
-| [`dsh-btw-sidebar`](https://github.com/s11phere/dsh-btw-sidebar) | Codex 风格的 `/btw`：把当前会话分叉到 DSH 原生右侧栏，继续使用完整会话与工具能力。 | 公开 |
-| [`dsh-away-notify`](https://github.com/s11phere/dsh-away-notify) | 只有当你不在 DSH 页面时，才为完成、出错、等待审批等事件弹桌面通知；点击回到对应会话。 | 公开 |
-| [`dsh-commandcode-quota`](https://github.com/s11phere/dsh-commandcode-quota) | 在会话页头查看 Command Code 套餐的 5 小时 / 每周 / 月度额度、重置倒计时与计费周期用量。 | 公开 |
+| 插件 | 说明 |
+| --- | --- |
+| [`dsh-btw-sidebar`](https://github.com/s11phere/dsh-btw-sidebar) | Codex 风格的 `/btw`：把当前会话分叉到 DSH 原生右侧栏，继续使用完整会话与工具能力。 |
+| [`dsh-away-notify`](https://github.com/s11phere/dsh-away-notify) | 只有当你不在 DSH 页面时，才为完成、出错、等待审批等事件弹桌面通知；点击回到对应会话。 |
+| [`dsh-commandcode-quota`](https://github.com/s11phere/dsh-commandcode-quota) | 在会话页头查看 Command Code 套餐的 5 小时 / 每周 / 月度额度、重置倒计时与计费周期用量。 |
 
 ### 渲染 / Rendering
 
-| 插件 | 说明 | 状态 |
-| --- | --- | --- |
-| [`dsh-tex-block-normalizer`](https://github.com/s11phere/dsh-tex-block-normalizer) | 修复 Pandoc 风格 `$$` 公式块被误解析的问题：公式首行丢失、正文被吞进 KaTeX 报错节点等。 | 公开 |
+| 插件 | 说明 |
+| --- | --- |
+| [`dsh-tex-block-normalizer`](https://github.com/s11phere/dsh-tex-block-normalizer) | 修复 Pandoc 风格 `$$` 公式块被误解析的问题：公式首行丢失、正文被吞进 KaTeX 报错节点等。 |
 
 ## 安装
 
@@ -51,7 +49,7 @@ dsh plugin --profile web add github:s11phere/dsh-btw-sidebar
 这个仓库是索引而不是 monorepo：
 
 - `README.md`：分类、说明与安装入口。
-- `plugins.json`：机器可读的插件清单，方便之后生成页面或检查状态。
+- `plugins.json`：机器可读的插件清单，方便之后生成页面或检查清单。
 
 每个插件的源码、构建产物和许可证保留在各自仓库中。
 
