@@ -5,42 +5,42 @@
       "id": "dsh-academic-search",
       "category": "research",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-academic-search",
+      "repo": "https://github.com/tianzeluo/dsh-academic-search",
       "description": "CS/AI academic search across arXiv, OpenAlex, Semantic Scholar and Crossref, with paper identity merging, bounded citation chains, and arXiv handoff."
     },
     {
       "id": "dsh-paper-reader",
       "category": "research",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-paper-reader",
+      "repo": "https://github.com/tianzeluo/dsh-paper-reader",
       "description": "Paper-reading mode with page and section anchors, structured reports, depth levels, and follow-up Q&A over the same parsed source."
     },
     {
       "id": "dsh-btw-sidebar",
       "category": "workflow",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-btw-sidebar",
+      "repo": "https://github.com/tianzeluo/dsh-btw-sidebar",
       "description": "Codex-style /btw that forks the current conversation into the native right sidebar."
     },
     {
       "id": "dsh-away-notify",
       "category": "workflow",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-away-notify",
+      "repo": "https://github.com/tianzeluo/dsh-away-notify",
       "description": "Desktop notifications for completion, errors, and approval waits, fired only when you are away from the page."
     },
     {
       "id": "dsh-commandcode-quota",
       "category": "workflow",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-commandcode-quota",
+      "repo": "https://github.com/tianzeluo/dsh-commandcode-quota",
       "description": "Command Code plan quota card with 5-hour, weekly, and monthly windows, reset countdowns, and billing-period usage."
     },
     {
       "id": "dsh-tex-block-normalizer",
       "category": "rendering",
       "status": "public",
-      "repo": "https://github.com/s11phere/dsh-tex-block-normalizer",
+      "repo": "https://github.com/tianzeluo/dsh-tex-block-normalizer",
       "description": "Normalizes Pandoc-style $$ display-math blocks before Markdown parsing to prevent lost first lines and KaTeX errors."
     }
   ]

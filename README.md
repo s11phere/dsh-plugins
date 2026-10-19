@@ -10,29 +10,29 @@ DSH 是一个可扩展的智能体工作环境。这个仓库是插件索引：�
 
 | 插件 | 说明 |
 | --- | --- |
-| [`dsh-academic-search`](https://github.com/s11phere/dsh-academic-search) | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 |
-| [`dsh-paper-reader`](https://github.com/s11phere/dsh-paper-reader) | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。速览 / 解读 / 深读三档可选。 |
+| [`dsh-academic-search`](https://github.com/tianzeluo/dsh-academic-search) | 跨 arXiv、OpenAlex、Semantic Scholar、Crossref 的 CS/AI 学术检索；论文身份归并、有界引用链、arXiv 原文交接。六个工具，不调用模型 API。 |
+| [`dsh-paper-reader`](https://github.com/tianzeluo/dsh-paper-reader) | 论文解读模式：生成带页码与章节锚点的结构化报告，并基于同一份解析产物回答追问。速览 / 解读 / 深读三档可选。 |
 
 ### 会话与工作流 / Session & workflow
 
 | 插件 | 说明 |
 | --- | --- |
-| [`dsh-btw-sidebar`](https://github.com/s11phere/dsh-btw-sidebar) | Codex 风格的 `/btw`：把当前会话分叉到 DSH 原生右侧栏，继续使用完整会话与工具能力。 |
-| [`dsh-away-notify`](https://github.com/s11phere/dsh-away-notify) | 只有当你不在 DSH 页面时，才为完成、出错、等待审批等事件弹桌面通知；点击回到对应会话。 |
-| [`dsh-commandcode-quota`](https://github.com/s11phere/dsh-commandcode-quota) | 在会话页头查看 Command Code 套餐的 5 小时 / 每周 / 月度额度、重置倒计时与计费周期用量。 |
+| [`dsh-btw-sidebar`](https://github.com/tianzeluo/dsh-btw-sidebar) | Codex 风格的 `/btw`：把当前会话分叉到 DSH 原生右侧栏，继续使用完整会话与工具能力。 |
+| [`dsh-away-notify`](https://github.com/tianzeluo/dsh-away-notify) | 只有当你不在 DSH 页面时，才为完成、出错、等待审批等事件弹桌面通知；点击回到对应会话。 |
+| [`dsh-commandcode-quota`](https://github.com/tianzeluo/dsh-commandcode-quota) | 在会话页头查看 Command Code 套餐的 5 小时 / 每周 / 月度额度、重置倒计时与计费周期用量。 |
 
 ### 渲染 / Rendering
 
 | 插件 | 说明 |
 | --- | --- |
-| [`dsh-tex-block-normalizer`](https://github.com/s11phere/dsh-tex-block-normalizer) | 修复 Pandoc 风格 `$$` 公式块被误解析的问题：公式首行丢失、正文被吞进 KaTeX 报错节点等。 |
+| [`dsh-tex-block-normalizer`](https://github.com/tianzeluo/dsh-tex-block-normalizer) | 修复 Pandoc 风格 `$$` 公式块被误解析的问题：公式首行丢失、正文被吞进 KaTeX 报错节点等。 |
 
 ## 安装
 
 插件可以直接从 GitHub 安装。以侧栏会话为例：
 
 ```bash
-dsh plugin --profile web add github:s11phere/dsh-btw-sidebar
+dsh plugin --profile web add github:tianzeluo/dsh-btw-sidebar
 ```
 
 安装后重启 `dsh web` 并刷新页面。不同插件对 DSH 版本、profile 和操作系统的要求写在各自仓库的 README 中。
